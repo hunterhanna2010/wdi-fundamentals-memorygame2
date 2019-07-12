@@ -33,20 +33,37 @@ console.log("User flipped " + cardFour);
 //if the values are equal, create an alert("You found a Match!");
 //if the values are not equal, create another alert("sorry, try again");
 
-const cards = ["queen", "queen", "king", "king"];
-const cardsInPlay = [];
-var cardOne = cards [0];
-cardsInPlay.push(cardOne);
-console.log("User flipped queen");
-var cardTwo = cards [2];
-cardsInPlay.push(cardTwo);
-console.log("User flipped king");
-
+var cards = ["queen", "queen", "king", "king"];
+var cardsInPlay = [];
+var checkForMatch = function () {
+	if (cardsInPlay[0] === cardsInPlay[1]) {
+	alert("You found a Match!");
+} else {
+	alert("sorry, please try again");
+	checkForMatch();
+}
+};
+//create a function 'flipCard' that accepts one parameter: 'cardId'
+//move code into the new function code
+//use the index number to access the card
+//console.log("User flipped" + cards[cardId])
+//Use push method to add the card the user flipped to the 'cardsInPlay' array (cards[cardId])
+//call the 'flipCard' function passing in 0 as an argument
+//call the 'flipCard' function again passing in 2 as an argument.
+//create a function 'checkForMatch' with no parameters
+//new code: if(cardsInPlay[0] === cardsInPlay[1]) {
+	//console.log("You found a Match!");
+	//} else {
+		//console.log("sorry, try again");
+	//}
+//call the 'checkForMatch' function
+var flipCard = function () {
+	cardsInPlay.push(cards[cardId]);
+	flipCard (0);
+	flipCard (2);
 if (cardsInPlay.length === 2) {
 	console.log("Sorry, please try again");
-} else if (cardsInPlay[0] === cardsInPlay[1]) {
-	alert("You found a Match!");
 }
-
+};
 
 
