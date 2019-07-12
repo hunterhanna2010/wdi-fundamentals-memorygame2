@@ -1,0 +1,110 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+header {
+	background-color: #F15B31;
+	color: white;
+	padding: 30px 20px 30px 20px;
+}
+
+h1, h2, a {
+	text-transform: uppercase;
+	font-family: Raleway;
+	letter-spacing: 1px;
+}
+
+h1 {
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 45px;
+	margin: 0;
+}
+
+h2 {
+	color: #0D2C40;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+a:hover {
+	border: white;
+	border-bottom: 2px solid transparent;
+}
+
+p {
+	font-family: "Droid Serif";
+	line-height: 26px;
+	font-size: 18px;
+}
+
+nav {
+	background-color: #00a6b3;
+	color: #FFFFFF;
+	padding: 20px;
+}
+
+main {
+	width: 850px;
+	margin: 35px auto;
+}
+
+img {
+	margin: 40px 8px 0 8px;
+}
+
+.facebook {
+	color: #00a6b3;
+	letter-spacing: 1px;
+}
+
+.linkedin {
+	color: #F15B31;
+	letter-spacing: 1px;
+}
+
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+
+
+
+
