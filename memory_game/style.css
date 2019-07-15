@@ -35,11 +35,13 @@ a {
 	font-size: 18px;
 	padding: 0 20px;
 	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
 }
 
 a:hover {
 	border: white;
-	border-bottom: 2px solid transparent;
+	border-bottom: 2px solid white;
+	
 }
 
 p {
@@ -60,7 +62,9 @@ main {
 }
 
 img {
-	margin: 40px 8px 0 8px;
+	margin: 40px 8px 40px 8px;
+	display: inline-block;
+	padding: 5px;
 }
 
 .facebook {
@@ -103,6 +107,17 @@ footer {
 .name {
 	color: #F15B31;
 	font-weight: 700;
+}
+
+#game-board {
+	display: block;
+	background-color: #00a6b3;
+	padding: 10px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: #C0C0C0;
+	margin-top: 10px;
+}
 }
 
 
